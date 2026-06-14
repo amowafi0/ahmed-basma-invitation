@@ -1,4 +1,4 @@
-import { EVENT_DATE, VENUE, AREA, COUPLE, formatDate, formatTime } from '@/lib/utils'
+import { EVENT_DATE, VENUE, AREA, MAP_URL, COUPLE, formatDate, formatTime } from '@/lib/utils'
 import { DaysLine } from './Countdown'
 import styles from './InvitationCard.module.css'
 
@@ -73,6 +73,14 @@ export function InvitationCard({ guestName = 'our honoured guest' }: Props) {
             <span className={styles.pin} />
             <div className={styles.venue}>{VENUE}</div>
             <div className={styles.addr}>{AREA} · address to be confirmed</div>
+            <a
+              href={MAP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.mapLink}
+            >
+              View on map
+            </a>
           </div>
 
           <div

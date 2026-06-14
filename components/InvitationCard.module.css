@@ -224,6 +224,23 @@
   color: var(--ink-soft);
 }
 
+.mapLink {
+  font-family: var(--sans);
+  font-size: 1.7cqw;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  text-decoration: none;
+  border-bottom: 1px solid var(--gold);
+  padding-bottom: 0.2cqw;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.mapLink:hover {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+
 .cdline {
   margin-top: 2.6cqw;
   font-family: var(--serif);
