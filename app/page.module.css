@@ -1,0 +1,12 @@
+.page {
+  min-height: 100dvh;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 482px;
+  min-height: 100dvh;
+}

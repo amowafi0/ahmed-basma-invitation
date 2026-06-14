@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A and B monogram">
+  <circle cx="100" cy="100" r="94" fill="#F8F2E6"/>
+  <circle cx="100" cy="100" r="94" fill="none" stroke="#B0813F" stroke-width="1.5"/>
+  <circle cx="100" cy="100" r="82" fill="none" stroke="#B0813F" stroke-width="1"/>
+  <text x="100" y="112" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="4" fill="#8C6529">A &#183; B</text>
+</svg>
