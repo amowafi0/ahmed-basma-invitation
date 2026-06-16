@@ -22,9 +22,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { guest } = await params
   const name = resolveName(guest)
   if (!name) return { title: 'Ahmed & Basma — Invitation' }
+  const title = `Ahmed & Basma — Invitation for ${name}`
+  const description = `${name}, you are warmly invited to celebrate the engagement of Ahmed & Basma`
   return {
-    title: `Ahmed & Basma — Invitation for ${name}`,
-    description: `${name}, you are warmly invited to celebrate the engagement of Ahmed & Basma`,
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: 'website',
+      images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/opengraph-image'],
+    },
   }
 }
 
