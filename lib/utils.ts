@@ -1,6 +1,6 @@
 export const EVENT_DATE = new Date("2026-06-26T21:00:00");
-export const VENUE = "The Rose Hall";
-export const AREA = "Talha";
+export const VENUE = "nile garden ";
+export const AREA = "Talkha";
 export const MAP_URL = "https://www.google.com/maps?q=31.052082,31.389563";
 export const COUPLE = { a: "Ahmed", b: "Basma" };
 
