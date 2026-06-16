@@ -27,6 +27,18 @@ const jost = Jost({
 export const metadata: Metadata = {
   title: 'Ahmed & Basma — Engagement',
   description: 'You are warmly invited to celebrate the engagement of Ahmed & Basma',
+  openGraph: {
+    title: 'Ahmed & Basma — Engagement',
+    description: 'You are warmly invited to celebrate the engagement of Ahmed & Basma',
+    type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ahmed & Basma — Engagement',
+    description: 'You are warmly invited to celebrate the engagement of Ahmed & Basma',
+    images: ['/opengraph-image'],
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
