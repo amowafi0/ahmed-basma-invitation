@@ -84,7 +84,7 @@ export function InvitationCard({ guestName = "our honoured guest" }: Props) {
             <div className={styles.wlab}>Where</div>
             <span className={styles.pin} />
             <div className={styles.venue}>{VENUE}</div>
-            <div className={styles.addr}>{AREA} mansura</div>
+            <div className={styles.addr}>{AREA}. mansoua</div>
             {/* <a
               href={MAP_URL}
               target="_blank"
