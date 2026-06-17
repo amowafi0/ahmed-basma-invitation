@@ -7,7 +7,7 @@ export const GUESTS: Record<string, string> = {
   "3": "MR : Mahmoued Mowafy",
   "5": "Eng : Mohamed Zaki  ",
   "6": "Eng : Medhat Abdelaal",
-  "7": "Eng : Salama  Abo Elhear ",
+  "7": "Eng : Salama  Abo Elkhear ",
   "8": "Eng : Mohamed Etman ",
   "9": "Mr : Mahmoued Etman",
   "10": "Mr : Yahia Etman",
