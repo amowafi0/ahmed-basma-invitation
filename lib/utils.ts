@@ -1,5 +1,5 @@
 export const EVENT_DATE = new Date("2026-06-26T21:00:00");
-export const VENUE = "nile garden ";
+export const VENUE = "NILE Garden ";
 export const AREA = "Talkha";
 export const MAP_URL = "https://www.google.com/maps?q=31.052082,31.389563";
 export const COUPLE = { a: "Ahmed", b: "Basma" };
