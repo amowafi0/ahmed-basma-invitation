@@ -57,7 +57,7 @@ export function InvitationCard({ guestName = "our honoured guest" }: Props) {
             className={`${styles.lede} ${styles.rise}`}
             style={{ animationDelay: "0.28s" }}
           >
-            request the pleasure of your company at their engagement
+            JOIN US IN CELEBRATING OUR ENGAGEMENT
           </div>
 
           <div
