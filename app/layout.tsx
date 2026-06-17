@@ -25,6 +25,7 @@ const jost = Jost({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://ahmed-basma.3d-micano.com'),
   title: 'Ahmed & Basma — Engagement',
   description: 'You are warmly invited to celebrate the engagement of Ahmed & Basma',
   openGraph: {
